@@ -1,3 +1,3 @@
 # exia-event
 
-An event listener and emitter toll.
+An event listener and emitter tool.
