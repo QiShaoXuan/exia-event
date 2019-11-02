@@ -1,0 +1,17 @@
+{
+  "name": "exia-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QiShaoXuan/exia-event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QiShaoXuan/exia-event/issues"
+  },
+  "homepage": "https://github.com/QiShaoXuan/exia-event#readme"
+}
