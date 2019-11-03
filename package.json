@@ -13,5 +13,12 @@
   "bugs": {
     "url": "https://github.com/QiShaoXuan/exia-event/issues"
   },
-  "homepage": "https://github.com/QiShaoXuan/exia-event#readme"
+  "homepage": "https://github.com/QiShaoXuan/exia-event#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3"
+  }
 }

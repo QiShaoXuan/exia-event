@@ -21,7 +21,7 @@ class ExiaEvent {
   }
 
   emit = (eventName, ...args) => {
-    if (!this.checkOwenEvent(eventName)) {
+    if (!this.hasOwnEvent(eventName)) {
       return this
     }
 
@@ -70,3 +70,6 @@ class ExiaEvent {
     return isHas
   }
 }
+
+
+export default new ExiaEvent()
