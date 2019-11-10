@@ -2,8 +2,8 @@ import babel from "rollup-plugin-babel";
 export default {
   input: 'src/index.js',
   output: {
-    file: 'exia-event.js',
-    name:'hi',
+    file: 'index.js',
+    name:'exiaEvent',
     format: 'umd'
   },
   plugins: [

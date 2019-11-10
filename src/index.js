@@ -1,3 +1,5 @@
+import exia from 'exia'
+
 class ExiaEvent {
   constructor() {
     this.events = new Map()
@@ -71,5 +73,7 @@ class ExiaEvent {
   }
 }
 
+exia.event = new ExiaEvent()
 
-export default new ExiaEvent()
+export default exia.event
+

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rollup -c"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QiShaoXuan/exia-event.git"
@@ -20,5 +22,8 @@
     "@babel/preset-env": "^7.6.3",
     "rollup": "^1.26.3",
     "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "exia": "^1.0.0"
   }
 }
